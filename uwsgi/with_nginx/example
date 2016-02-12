@@ -1,0 +1,19 @@
+upstream uwsgicluster {
+    # server unix:///tmp/uwsgi.sock;
+    server 127.0.0.1:9000;
+}
+
+server {
+    listen       8888;
+    location / {
+        include  /work/uwsgi_params;
+        uwsgi_pass  uwsgicluster;
+        uwsgi_read_timeout 300;
+        index  index.html index.htm;
+        client_max_body_size 4g;
+    }
+
+    # Log
+    access_log /work/logs/nginx/access.log main;
+    error_log  /work/logs/nginx/error.log warn;
+}
