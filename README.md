@@ -1,12 +1,17 @@
 DevOp tools
 ===========
+Common scripts for management server/services
 
 Last Modified: 2016.02.11
 
-### Software
+## Software
   * **nginx**
   * **uwsgi**
   * **supervisord**
 
-### AWS
+## AWS
   * **[lambda]**
+  * **[S3]**
+
+## License
+MIT license
