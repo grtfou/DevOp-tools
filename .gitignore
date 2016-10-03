@@ -55,3 +55,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# OCX
+.DS_Store

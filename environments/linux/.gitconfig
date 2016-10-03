@@ -1,0 +1,10 @@
+[user]
+    name =
+    email =
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    log = auto
+[alias]
+    logt = log --pretty=format:\"%C(auto)%H(%cd) %d - %s\" --graph --decorate --all --date=short
