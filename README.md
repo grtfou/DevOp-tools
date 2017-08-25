@@ -17,7 +17,7 @@ Configs and scripts for common deployment tools
 Use [Let’s Encrypt](https://letsencrypt.org) for Web Certificates
 
 ### environments
-Some settings for personal use (e.g. editor)
+Some settings for personal use (e.g. editor, Dokuwiki)
 
 ## License
 MIT license
