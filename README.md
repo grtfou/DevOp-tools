@@ -2,21 +2,21 @@
 
 Configs and scripts for common deployment tools
 
-## Deployment
+### Deployment
   * **nginx**
   * **uwsgi**
   * **gunicorn**
   * **supervisord**
   * **docker**
 
-## AWS
+### AWS
   * **[lambda]**
   * **[S3]**
 
-## HTTPS
+### HTTPS
 Use [Let’s Encrypt](https://letsencrypt.org) for Web Certificates
 
-## environments
+### environments
 Some settings for personal use (e.g. editor)
 
 ## License
