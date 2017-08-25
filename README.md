@@ -1,20 +1,23 @@
-DevOp tools
-===========
-Common scripts for management server and service
+# DevOp tools
 
-Last Modified: 2016.02.11
+Configs and scripts for common deployment tools
 
-## User environments
-Please read **"environments/README.md"**
-
-## DevOP
+## Deployment
   * **nginx**
   * **uwsgi**
+  * **gunicorn**
   * **supervisord**
+  * **docker**
 
-### AWS
+## AWS
   * **[lambda]**
   * **[S3]**
+
+## HTTPS
+Use [Let’s Encrypt](https://letsencrypt.org) for Web Certificates
+
+## environments
+Some settings for personal use (e.g. editor)
 
 ## License
 MIT license
