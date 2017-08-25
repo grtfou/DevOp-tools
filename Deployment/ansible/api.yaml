@@ -1,0 +1,18 @@
+---
+- name: POST API to local server
+  hosts: localhost
+  vars:
+    my_port: 8800
+
+  tasks:
+    - name: test JWT
+      register: my_api_resp
+      uri:
+        url: http://localhost:{{ my_port }}/get_token/
+        method: POST
+        status_code: 200
+        return_content: yes
+        body: "username=example&password=example_pwd"
+        body_format: raw
+
+    - debug: msg="{{ my_api_resp }}"

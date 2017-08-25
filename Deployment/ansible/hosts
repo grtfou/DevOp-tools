@@ -1,0 +1,1 @@
+target_server ansible_ssh_host=<your_host_ip> ansible_ssh_port=22 ansible_python_interpreter=/home/ansible/.pyenv/versions/3.5.2/bin/python
