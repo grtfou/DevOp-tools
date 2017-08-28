@@ -8,6 +8,7 @@ Configs and scripts for common deployment tools
   * **gunicorn**
   * **supervisord**
   * **docker**
+  * **ansible**
 
 ### AWS
   * **[lambda]**
