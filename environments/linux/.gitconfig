@@ -8,3 +8,10 @@
     log = auto
 [alias]
     logt = log --pretty=format:\"%C(auto)%H(%cd) %d - %s\" --graph --decorate --all --date=short
+[core]
+        autocrlf = input
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
