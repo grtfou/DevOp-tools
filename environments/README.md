@@ -9,5 +9,3 @@ Settings for User Environment
 ## OSX
   * user config: (put them into /home/&lt;user_account&gt;/)
 
-## software
-  * dokuwiki template
